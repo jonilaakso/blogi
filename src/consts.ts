@@ -50,11 +50,11 @@ export const siteConfig: Config = {
   You can find icons @ https://icones.js.org/
 */
 export const SOCIAL_LINKS: Array<SocialLink> = [
-  {
-    icon: "mdi:github",
-    friendlyName: "Github",
-    link: "#",
-  },
+  // {
+  //   icon: "mdi:github",
+  //   friendlyName: "Github",
+  //   link: "#",
+  // },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
