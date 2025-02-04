@@ -61,9 +61,8 @@ export default {
             slug: "archive"
         },
         "tags": {
-            text: "tags",
-            slug: "tags"
-        }
+            text: "Tagit",
+            slug: "tags"        }
     }
 } as const satisfies TranslationNavEntries;
 

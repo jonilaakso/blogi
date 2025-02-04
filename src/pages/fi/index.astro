@@ -14,15 +14,9 @@ const MAX_POSTS = 10;
 const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts);
 const allPostsByPinned = sortMDByPinned(allPostsByDate);
-const filteredPostsByLanguage = filterByLanguage(allPostsByPinned, "es").slice(0, MAX_POSTS);
+const filteredPostsByLanguage = filterByLanguage(allPostsByPinned, "fi").slice(0, MAX_POSTS);
 
 const tech: Array<{ title: string; desc: string; href: string }> = [
-	{
-		title: "Astro",
-		desc: "Crea sitios web rápidos, más rápido.",
-		href: "https://astro.build",
-	},
-
 ];
 ---
 
@@ -48,27 +42,6 @@ const tech: Array<{ title: string; desc: string; href: string }> = [
 			}
 		</ul>
 	</section>
-
-	<!-- <section class="mt-16 mb-4">
-		<h2 class="title">Technologies</h2>
-		<ul class="space-y-4 sm:space-y-2">
-			{
-				tech.map(({ href, title, desc }) => (
-					<li>
-						<a
-							href={href}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="cody-link inline-block"
-						>
-							{title}
-						</a>
-						: <p class="inline-block sm:mt-2">{desc}</p>
-					</li>
-				))
-			}
-		</ul>
-	</section> -->
 
 	<hr />
 	<section class="">

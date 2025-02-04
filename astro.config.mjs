@@ -7,12 +7,12 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-theme-cody.netlify.app',
+  site: 'https://kyberlaakso.fi',
   integrations: [mdx(), sitemap(), tailwind()],
   // NOTE: Make sure this matches your supported languages in the file: src/consts.ts
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "es"]
+    defaultLocale: "fi",
+    locales: ["en", "fi"]
   },
   markdown: {
     remarkPlugins: [remarkReadingTime],
