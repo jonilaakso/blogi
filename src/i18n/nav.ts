@@ -20,12 +20,12 @@ export default {
         },
         "blog": {
             text: "Blog",
-            slug: "blog",
+            slug: "blog/pages/1",
             route: "/blog/pages/1"
         },
         "projects": {
             text: "Projects",
-            slug: "projects",
+            slug: "projects/pages/1",
             route: "/projects/pages/1"
         },
         "archive": {
@@ -34,43 +34,35 @@ export default {
         },
         "tags": {
             text: "Tags",
-            slug: "tags"
-        },
-        "series": {
-            text: "Series",
-            slug: "series"
+            slug: "tags",
         }
     },
-    "es": {
+    "fi": {
         "home": {
-            text: "Página Principal",
+            text: "Etusivu",
             slug: ""
         },
         "about": {
-            text: "Acerca De",
-            slug: "about"
+            text: "Tietoa",
+            slug: "tietoa"
         },
         "blog": {
-            text: "Blog",
-            slug: "blog",
-            route: "/blog/pages/1"
+            text: "Blogi",
+            slug: "blogi/sivut/1",
+            route: "/blogi/sivut/1"
         },
         "projects": {
-            text: "Proyectos",
-            slug: "projects",
+            text: "Projektit",
+            slug: "projects/pages/1",
             route: "/projects/pages/1"
         },
         "archive": {
-            text: "Archivo",
+            text: "Arkisto",
             slug: "archive"
         },
         "tags": {
-            text: "Etiquetas",
+            text: "tags",
             slug: "tags"
-        },
-        "series": {
-            text: "Serie",
-            slug: "series"
         }
     }
 } as const satisfies TranslationNavEntries;

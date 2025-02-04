@@ -22,51 +22,24 @@ const tech: Array<{ title: string; desc: string; href: string }> = [
 		desc: "Crea sitios web rápidos, más rápido.",
 		href: "https://astro.build",
 	},
-	{
-		title: "Astro Assets",
-		desc: "Compatibilidad con activos optimizados integrados.",
-		href: "https://docs.astro.build/en/guides/assets/",
-	},
-	{
-		title: "Tailwind CSS",
-		desc: "Crea sitios web modernos rápidamente sin tener que abandonar el HTML.",
-		href: "https://tailwindcss.com",
-	},
-	{
-		title: "Markdown",
-		desc: "Lenguaje de marcado simple y fácil de usar.",
-		href: "https://www.markdownguide.org/",
-	},
-	{
-		title: "MDX",
-		desc: "Markdown para la era de los componentes.",
-		href: "https://mdxjs.com/",
-	},
-	{
-		title: "Astro Icon",
-		desc: "Un componente de ícono fácil de usar para Astro.",
-		href: "https://github.com/natemoo-re/astro-icon#readme",
-	},
+
 ];
 ---
 
 <BaseLayout title="Home">
 	<section>
-		<h1 class="title">Hello World</h1>
+		<h1 class="title">Tervetuloa Kyberlaakso.fi</h1>
 		<p class="mb-4 sm:mb-8">
-			¡Hola a todos! Este es un tema para Astro. Pueden usarlo como blog
-			personal o portafolio. Si quieren saber más sobre cómo
-			personalizarlo y hacerlo suyo, hagan clic en el enlace del ícono de
-			Github que aparece a continuación y los llevará al repositorio.
+		Tämä on internetin kulmaus jonka seinille on raapustettu tekstejä kyberiin ja tietotekniikkaan liittyen.
 		</p>
 		<div>
-			<span>Puedes encontrarme en:</span>
+			<span>Sosiaaliset mediat:</span>
 			<SocialMediaLinks />
 		</div>
 	</section>
 
 	<section class="mt-8 sm:mt-16">
-		<h2 class="title">Posts</h2>
+		<h2 class="title">Viimeisimmät blogitekstit</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
 				filteredPostsByLanguage.map((p) => (
@@ -76,7 +49,7 @@ const tech: Array<{ title: string; desc: string; href: string }> = [
 		</ul>
 	</section>
 
-	<section class="mt-16 mb-4">
+	<!-- <section class="mt-16 mb-4">
 		<h2 class="title">Technologies</h2>
 		<ul class="space-y-4 sm:space-y-2">
 			{
@@ -95,10 +68,10 @@ const tech: Array<{ title: string; desc: string; href: string }> = [
 				))
 			}
 		</ul>
-	</section>
+	</section> -->
 
 	<hr />
 	<section class="">
-		<p>Esto fue traducido usando Google Translate</p>
+		<p></p>
 	</section>
 </BaseLayout>

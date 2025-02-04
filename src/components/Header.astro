@@ -68,13 +68,6 @@ function buildNavLink(nav: string, entry: NavEntry): string {
 				aria-current={url.pathname === "tags" ? "page" : false}
 				data-astro-prefetch>{t("tags").text}</HeaderLink
 			>
-			<HeaderLink
-				class="sm:hidden block py-2 sm:py-0"
-				href="/series"
-				title="series"
-				aria-current={url.pathname === "series" ? "page" : false}
-				data-astro-prefetch>{t("series").text}</HeaderLink
-			>
 		</div>
 	</nav>
 

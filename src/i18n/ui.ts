@@ -12,10 +12,10 @@ export default {
             text: "Astro Theme Cody"
         },
         "site.description": {
-            text: "A minimalist blog theme built with Astro. A quick and easy starter build for anyone who wants to start their own blog."
+            text: "A corner of the internet where the walls are scribbled with texts about cyber and information technology."
         },
         "profile.description": {
-            text: "your bio description"
+            text: "IT-Wizard who writes about IT and Cybersecurity"
         },
         "blog.lastUpdated": {
             text: "Last updated:"
@@ -33,30 +33,30 @@ export default {
             text: "WEBSITE"
         }
     },
-    "es": {
+    "fi": {
         "site.title": {
-            text: "Astro Theme Cody"
+            text: "Kyberlaakso"
         },
         "site.description": {
-            text: "Un tema de blog minimalista creado con Astro. Un tema de inicio rápido y sencillo para cualquiera que quiera crear su propio blog."
+            text: "Kulmaus internetissä jonka seinille on raapustettu kyberistä ja tietotekniikasta"
         },
         "profile.description": {
-            text: "tu descripción biográfica"
+            text: "Kyberistä ja tietotekniikasta kiinnostunut IT-velho"
         },
         "blog.lastUpdated": {
-            text: "Última actualización:"
+            text: "Viimeeksi päivitetty:"
         },
         "sidebar.tableOfContents": {
-            text: "Tabla de contenidos"
+            text: "Sisältö"
         },
         "project.platform": {
-            text: "PLATAFORMA"
+            text: "Platform"
         },
         "project.stack": {
-            text: "PILA"
+            text: "Stack"
         },
         "project.website": {
-            text: "WEBSITE"
+            text: "URL"
         }
     }
 } as const satisfies TranslationUIEntries;

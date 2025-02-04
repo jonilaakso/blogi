@@ -1,11 +1,9 @@
 ---
-title: 'Second post'
+title: 'testi'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 22 2022'
-heroImage: 
-  src: '/blog-placeholder-4.jpg'
-  alt: ''
-tags: ["test"]
+pubDate: 'Jul 08 2022'
+tags: ["placeholder", "test"]
+updatedDate: 'Sep 10 2022'
 series: "example"
 ---
 
