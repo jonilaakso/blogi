@@ -138,11 +138,12 @@ series: 'kyber'
 | Lyhenne | Tarkoittaa |
 |--|--|
 | SaaS | Software as a Service | 
-| SOC | Security Operations Center |
 | SIEM | Security Information and Event Management |
 | SNMP | Simple Network Management Protocol |
 | SMB | Server Message Block |
+| SOC | Security Operations Center |
 | SOAR | Security Orchestration, Automation and Response | 
+| SPF | Sender Pocicy Framework | 
 
 
 # T
