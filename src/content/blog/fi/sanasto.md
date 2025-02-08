@@ -7,12 +7,10 @@ heroImage:
   alt: ''
 tags: ['kyber', 'sanasto']
 updatedDate: '02 08 2025'
-series: 'sanastot'
+series: ''
 ---
 
-Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa. 
-
-# A
+## A
 
 | Lyhenne | Tarkoittaa |
 |--|--|
@@ -20,13 +18,13 @@ Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa.
 | AIP | Azure Information Protection |
 | APT | Advanced Persistent Threat |
 
-# B
+## B
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# C
+## C
 
 | Lyhenne | Tarkoittaa |
 |--|--|
@@ -35,7 +33,7 @@ Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa.
 | CDS | Cross Domain Solution |
 | CISO | Chief Information Security Officer | 
 
-# D
+## D
 
 | Lyhenne | Tarkoittaa |
 |--|--|
@@ -45,32 +43,32 @@ Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa.
 | DMARC | Domain-based Message Authentication, Reporting and Conformance |
 | DNS | Domain Name System |
 
-# E
+## E
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# F
+## F
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | FWaaS | Firewall as a Service |
 
-# G
+## G
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# H
+## H
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | HTTP | Hypertext Transfer Protocol  |
 | HTTPS | Hypertext Transfer Protocol Secure |
 
-# I
+## I
 
 | Lyhenne | Tarkoittaa |
 |--|--|
@@ -80,62 +78,62 @@ Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa.
 | IPv4 | Internet Protocol Version 4 |
 | IPv6 | Internet Protocol Version 6 |
 
-# J
+## J
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# K
+## K
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# L
+## L
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | LAN | Local Area Network |
 
-# M
+## M
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# N
+## N
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | NDR | Network Detection and Response |
 | NOC | Network Operations Center |
 
-# O
+## O
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | OWASP | Open Worldwide Application Security Project |
 
-# P
+## P
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | PaaS | Platform as a Service |
 
-# Q
+## Q
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# R
+## R
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# S
+## S
 
 | Lyhenne | Tarkoittaa |
 |--|--|
@@ -148,27 +146,27 @@ Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa.
 | SPF | Sender Pocicy Framework | 
 
 
-# T
+## T
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | TLS | Transport Layer Security |
 
-# U
+## U
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | UEBA | User Behaviour Analytics |
 | UEFI | Unified Extensible Firmware Interface |
 
-# V
+## V
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | VLAN | Virtual Local Area Network |
 | VPN | Virtual Private Network | 
 
-# W
+## W
 
 | Lyhenne | Tarkoittaa |
 |--|--|
@@ -176,19 +174,19 @@ Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa.
 | WPA2	| Wifi Protected Access 2 |
 | WPA3	| Wifi Protected Access 3 |
 
-# X
+## X
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# Y
+## Y
 
 | Lyhenne | Tarkoittaa |
 |--|--|
 | | |
 
-# Z
+## Z
 
 | Lyhenne | Tarkoittaa |
 |--|--|
