@@ -35,6 +35,15 @@ export default {
         "tags": {
             text: "Tags",
             slug: "tags",
+        },
+        "sanasto": {
+            text: "Dictionary",
+            slug: "dict",
+            route: "/blog/dictionary"
+        },
+        "series": {
+            text: "Series",
+            slug: "series",
         }
     },
     "fi": {
@@ -62,7 +71,18 @@ export default {
         },
         "tags": {
             text: "Tagit",
-            slug: "tags"        }
+            slug: "tags"        
+        },
+        "sanasto": {
+            text: "Sanasto",
+            slug: "sanasto",
+            route: "/blog/sanasto"
+        },
+        "series": {
+            text: "Series",
+            slug: "series",
+            route: "/fi/series/"
+        }
     }
 } as const satisfies TranslationNavEntries;
 
