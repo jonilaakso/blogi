@@ -7,7 +7,7 @@ heroImage:
   alt: ''
 tags: ['kyber', 'sanasto']
 updatedDate: '02 08 2025'
-series: ''
+series: 'kyber'
 ---
 
 ## A
