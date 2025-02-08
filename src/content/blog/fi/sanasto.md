@@ -10,6 +10,8 @@ updatedDate: '02 08 2025'
 series: 'kyber'
 ---
 
+Tähän listaan päivittelen lyhenteitä ja mitä ne tarkoittaa. 
+
 # A
 
 | Lyhenne | Tarkoittaa |
