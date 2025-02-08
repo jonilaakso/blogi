@@ -38,7 +38,7 @@ export default {
         },
         "sanasto": {
             text: "Dictionary",
-            slug: "dict",
+            slug: "dictionary",
             route: "/blog/dictionary"
         },
         "series": {
@@ -81,7 +81,6 @@ export default {
         "series": {
             text: "Series",
             slug: "series",
-            route: "/fi/series/"
         }
     }
 } as const satisfies TranslationNavEntries;

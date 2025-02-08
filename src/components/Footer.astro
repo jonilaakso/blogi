@@ -20,14 +20,28 @@ const t = useNavTranslations(lang);
 		{
 			NAV_LINKS.map((link) => {
 				const translation = t(link);
-				return (
+
+				if (link == "sanasto"){
+					return (
 					<a
-						href={`/${lang}/${translation.slug}`}
+						href={`/${lang}/blogi/${translation.slug}`}
 						class="px-2 py-0 hover:text-textColor hover:underline sm:px-4 sm:py-1 text-center"
 					>
 						{translation.text}
 					</a>
-				);
+					)
+				}
+
+				else {
+					return (
+						<a
+							href={`/${lang}/${translation.slug}`}
+							class="px-2 py-0 hover:text-textColor hover:underline sm:px-4 sm:py-1 text-center"
+						>
+							{translation.text}
+						</a>
+					);
+				}
 			})
 		}
 	</nav>
