@@ -14,6 +14,7 @@ import {
 	type SupportedLanguage,
 } from "@/utils";
 import { siteConfig } from "src/consts";
+import { getLangFromUrl } from "@/utils";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	// grab all posts besides drafts and hidden ones
@@ -36,6 +37,8 @@ export const getStaticPaths = (async ({ paginate }) => {
 		});
 	});
 }) satisfies GetStaticPaths;
+
+const lang = getLangFromUrl(Astro.url);
 
 interface Props {
 	page: Page<CollectionEntry<"blog">>;
@@ -98,7 +101,7 @@ const paginationProps = {
 				<ul class="flex gap-2 flex-wrap mb-4">
 					{tags.map((tag) => (
 						<li class="tag">
-							<a href={`/tags/${tag}`} aria-label={`tag: ${tag}`}>
+							<a href={`/${lang}/tags/${tag}`} aria-label={`tag: ${tag}`}>
 								{tag}
 							</a>
 						</li>
